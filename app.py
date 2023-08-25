@@ -8,8 +8,6 @@ app = Flask(__name__)
 def hello(id):
     id = int(id)
 
-    sleep(2)
-
     def escolhe_time(id):
         if id == 1:
             return "gremio"
